@@ -1,0 +1,35 @@
+.inputCheckbox {
+  display: none;
+}
+.labelCheckbox {
+  position: relative;
+  display: grid;
+  align-items: center;
+  width: 3.5rem;
+  height: 2rem;
+  background-color: var(--body);
+  border-radius: 8rem;
+  border: 1px solid var(--text);
+}
+.labelCheckbox::before {
+  content: "";
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  /*background-color: yellow;*/
+  left: 0.2rem;
+  position: absolute;
+  transition: left 0.2s;
+  background-image: url("../assets/smile.png");
+  background-size: contain;
+  border: 1px solid var(--text);
+}
+.labelCheckbox:hover {
+  cursor: pointer;
+}
+.inputCheckbox:checked + label {
+  background-color: var(--checkbox);
+}
+.inputCheckbox:checked + label::before {
+  left: calc(3.5rem - 1.4rem - 0.2rem); /*  dont add margins-inline!!!*/
+}

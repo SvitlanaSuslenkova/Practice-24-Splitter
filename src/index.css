@@ -1,0 +1,15 @@
+:root {
+  --body: hsl(43, 96%, 91%);
+  --main: hsl(30, 100%, 88%);
+  --checkbox: hsl(43, 96%, 91%);
+  --text: hsl(20, 3%, 21%);
+  --button: hsl(194, 94%, 76%);
+  --button-selected: hsl(194, 99%, 56%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*  --checkbox: hsl(58, 100%, 86%);*/
+/* --checkbox: hsl(63, 100%, 92%);*/
