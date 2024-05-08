@@ -24,7 +24,7 @@ function App() {
       <main>
         <div className="choosePage">
           <span className={checked ? "choosePageSpan" : "choosePageSpanBold"}>
-            devide sum equally
+            divide sum equally
           </span>
 
           <InputCheckbox
